@@ -1,0 +1,18 @@
+CREATE TABLE Salgato(id INTEGER PRIMARY KEY, category TEXT, style_name TEXT, stock INTEGER, cost INTEGER, price INTEGER);
+INSERT INTO Salgato VALUES (1, "Tops", "Embroidered Corset Top", 10, 16.22, 38.99);
+INSERT INTO Salgato VALUES (2,"Tops", "Furry Bra", 4, 3.99, 15.99);
+INSERT INTO Salgato VALUES (3,"Jacket", "Floral Lace Bomber Jacket",3,27.43, 59.99);
+Insert into Salgato VALUES (4, "Jacket", "Furry Cropped Jacket",2, 17.99, 49.99);
+Insert into Salgato VALUES (5,"Bottoms", "Construction Pants", 15, 9.90, 29.99);
+Insert into Salgato VALUES (6,"Bottom", "Organza Skirt", 3, 4.90, 19.99);
+Insert into Salgato VALUES (7,"Accessories", "Knitted Thigh High Socks",12 , 1.90, 10.99);
+Insert into Salgato VALUES (8,"Accessories", "Knitted Knee Length Socks", 5, .90,7.99);
+Insert into Salgato VALUES (9,"Accessories","Mushroom Bucket Hat", 4,3.90,19.90);
+Insert into Salgato VALUES (10,"Accessories","Everyday Witch Hat", 6,2.90, 19.90);
+Insert into Salgato VALUES (11, "Accessories", "Embroidered Tote Bag", 15, 4.90, 19.90);
+Insert into Salgato VALUES (12,"Accessories", "Pumpkin Tote Bag", 8,8.90, 24.90);
+INSERT into Salgato VALUES (13,"Accessories","Knitted Knee Length Socks, Black", 13,.90,7.99);
+Insert into Salgato VALUES (14,"Jacket", "Upcycled Denim Jacket",3, 19.90,39.90);
+Insert into Salgato VALUES (15,"Tops","Floral lace crop top",10,5.90, 24.90);
+SELECT * FROM Salgato ORDER BY price;
+SELECT AVG(price) FROM Salgato;
